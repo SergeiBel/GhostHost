@@ -44,7 +44,6 @@ header a:hover{
     margin-top: -150px;
     background: url(img/HeaderBG.png) no-repeat;
     height: 950px;
-    width: 100vw;
     color: #eeeeef;
     text-align: center;
     display: flex;
@@ -96,4 +95,218 @@ header a:hover{
     width: 100%;
     height: 100%;
     color: #fff;
+}
+
+/*============================================================================================================================*/
+
+.domain{
+    text-align: center;
+}
+
+.domain h2{
+    font-style: bold;
+    padding-top: 90px;
+    font-size: 24px;
+    padding-bottom: 26px;
+}
+
+.domain p{
+    font-size: 16px;
+    color: #a2a2a2;
+    padding-bottom: 49px;
+}
+
+.search{
+    display: flex;
+    margin: 0 auto;
+    width: 60%;
+    justify-content: space-around;
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 40px;
+}
+
+.search p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+    right: 5px;
+}
+
+.search input{
+    margin-left: 20px;
+    border: none;
+    padding-left: 5px;
+    border-right: 1px solid #d9d9d9;
+    border-left: 1px solid #d9d9d9;
+    height: 50px;
+    width: 100%;
+}
+
+.select-domain{
+    border: none;
+    color: #d9d9d9;
+}
+
+.domain-info{
+    width: 60%;
+    padding: 5px;
+    margin: 0 auto;
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 3%;
+    margin-bottom: 90px;
+}
+
+.domain-info p{
+    padding: 35px;
+    border: 1px solid #d9d9d9;
+    border-radius: 20px;
+}
+
+.bottom-row{
+    margin-top: 10px;
+}
+
+/*============================================================================================================================*/
+
+.packages{
+    background-image: url(img/PackagesBG.png);
+    width: 100%;
+    height: 765px;
+}
+
+.packages-container{
+    display: flex;
+    padding-top: 100px;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.basic-package{
+    width: 20%;
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    text-align: center;
+    background-color: #ffffff;
+    border-top: 5px solid #f9d423;
+}
+
+.normal-package{
+    width: 20%;
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    text-align: center;
+    background-color: #ffffff;
+    border-top: 5px solid #7f8c8d;
+}
+
+.big-package{
+    width: 20%;
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    text-align: center;
+    background-color: #ffffff;
+    border-top: 5px solid #f85f40;
+}
+
+.biggest-package{
+    width: 20%;
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    text-align: center;
+    background-color: #ffffff;
+    border-top: 5px solid #1abc9c;
+}
+
+.top-panel img{
+    margin-bottom: 10px;
+}
+
+.top-panel p{
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+    color: #000;
+    font-size: 24px;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.middle-panel{
+    height: 280px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    color: #a2a2a2;
+    font-size: 16px;
+    border-bottom: 1px solid #d9d9d9;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.middle-panel-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-panel{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom-panel p{
+    display: inline-block;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.bottom-panel button{
+    border: none;
+    background-color: #fff;
+}
+
+.basic-package .bottom-panel p{
+    border-bottom: 4px solid #f9d423;
+}
+.basic-package .color{
+    color: #f9d423;
+}
+.normal-package .bottom-panel p{
+    border-bottom: 4px solid #7f8c8d;
+}
+
+.normal-package .color{
+    color: #7f8c8d;
+}
+
+.big-package .bottom-panel p{
+    border-bottom: 4px solid #f85f40;
+}
+
+.big-package .color{
+    color: #f85f40;
+}
+
+.biggest-package .bottom-panel p{
+    border-bottom: 4px solid #1abc9c;
+}
+
+.biggest-package .color{
+    color: #1abc9c;
+}
+
+.bottom-panel span{
+    font-size: 34px;
+}
+
+.bottom-panel button{
+    font-size: 18px;
 }
