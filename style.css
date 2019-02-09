@@ -378,3 +378,222 @@ header a:hover{
 
 /*============================================================================================================================*/
 
+.functions{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+.func-text{
+    color: #a2a2a2;
+    margin-top: 10px;
+}
+
+.image-servers{
+    display: inline-block;
+    
+}
+
+.fast-servers{
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    width: 60%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cloud-servers{
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    width: 60%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.domain-transfer{
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    width: 60%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.live-support{
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    width: 60%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fast-servers-bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #f1c40f;
+    margin-bottom: 15px;
+}
+
+.cloud-servers-bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #0faff1;
+    margin-bottom: 15px;
+}
+
+.domain-transfer-bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #95a5a6;
+    margin-bottom: 15px;
+}
+
+.live-support-bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #f1540f;
+    margin-bottom: 15px;
+}
+
+/*============================================================================================================================*/
+
+footer{
+    background-color: #2a2a2a;
+    color: #5a5a5a;
+    
+}
+footer nav a{
+    color: #5a5a5a;
+    padding-left: 30px;
+}
+
+footer a:hover{
+    color: #fff;
+}
+
+footer .menu-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .nav-container{
+    border-bottom: 1px solid #4a4a4a;
+}
+
+.footer-container{
+    margin: 0 auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-column-gap: 3%;
+}
+
+.footer-info{
+    padding: 10px;
+    max-height: 110px;
+    margin-top: 20px;
+    padding-right: 40px;
+    margin-bottom: 40px;
+    border-right: 1px solid #4a4a4a;
+}
+
+.footer-info p{
+    margin-bottom: 15px;
+}
+
+.footer-info p span{
+    font-weight: bold;
+}
+
+.footer-structure{
+    margin-top: 20px;
+    padding: 10px;
+    max-height: 110px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-row-gap: 1%;
+    grid-column-gap: 1%;
+    border-right: 1px solid #4a4a4a;
+
+}
+
+footer a{
+    color: #5a5a5a;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-structure a:hover{
+    color: #fff;
+}
+
+.footer-connect{
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 110px;
+}
+
+.phone img{
+    display: block;
+    margin-right: 10px;
+}
+
+.phone a{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.phone{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.phone div{
+    display: flex;
+}
+
+.email img{
+    display: block;
+    margin-right: 10px;
+}
+
+.email a{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.email{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.email div{
+    display: flex;
+}
