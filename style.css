@@ -175,8 +175,9 @@ header a:hover{
 /*============================================================================================================================*/
 
 .packages{
-    background-image: url(img/PackagesBG.png);
+    background: url(img/PackagesBG.png) no-repeat;
     width: 100%;
+    padding-bottom: 50px;
     height: 765px;
 }
 
@@ -310,3 +311,70 @@ header a:hover{
 .bottom-panel button{
     font-size: 18px;
 }
+
+/*============================================================================================================================*/
+
+.about-us{
+    font-family: 'Lato', sans-serif;
+    width: 80%;
+    border-top: #a2a2a2 1px dotted;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0 auto; 
+    margin-bottom: 60px;
+    padding-top: 50px;
+}
+
+.text-about-us{
+    padding: 67px;
+    padding-top: 0;
+
+}
+
+.text-about-us p{
+    padding-top: 20px;
+    color: #a2a2a2;
+    text-align: justify;
+}
+
+.people{
+    text-align: center;
+    display: flex;
+    border-left: #a2a2a2 1px dotted;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.social-networks{
+    display: flex;
+    justify-content: space-around;
+}
+
+.name{
+    padding-top: 10px;
+}
+
+.profession{
+    margin: 15px;
+    color: #a2a2a2;
+}
+
+/*============================================================================================================================*/
+
+.slider{
+    height: 180px;
+    background: url(img/sliderBG.png) no-repeat;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #a8a7a7;
+}
+
+.slider-name{
+    padding-top: 10px;
+    color: #fff;
+}
+
+/*============================================================================================================================*/
+
