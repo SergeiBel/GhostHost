@@ -1,7 +1,7 @@
 *{
     font-family: 'Lato', sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 a{
@@ -178,7 +178,6 @@ header a:hover{
     background: url(img/PackagesBG.png) no-repeat;
     width: 100%;
     padding-bottom: 50px;
-    height: 765px;
 }
 
 .packages-container{
@@ -597,3 +596,149 @@ footer a{
 .email div{
     display: flex;
 }
+
+/*============================================================================================================================*/
+
+@media screen and (min-width: 1024px ) and (max-width: 1400px) {
+    footer{
+        font-size: 14px;
+    }
+
+    .email{
+        font-size: 12px;
+    }
+}
+
+/*============================================================================================================================*/
+
+@media screen and (max-width: 426px) {
+
+   .nav-container{
+       border: none;
+   }
+
+   header a:hover{
+       width: 90%;
+    transition: none;
+    border-bottom: none;
+}
+    .header-content h1{
+        font-size: 32px;
+    }
+
+    .header-content p{
+        font-size: 22px;
+    }
+
+    .header-content{
+    height: 100vh;
+    margin-top: -250px;
+}
+    .domain{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .domain-info{
+        max-width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        border: none;
+    }
+
+    .domain-info p{
+        margin: 0 auto;
+        border: none;
+    }
+
+    .domain-info .row{
+        border: 1px solid  #d9d9d9;
+        border-radius: 10px;
+        margin-bottom: 5px;
+    }
+
+
+
+
+    
+
+    .packages-container{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .big-package, .basic-package,.biggest-package,.normal-package{
+        width: 90%;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .top-panel p{
+        font-size: 22px;
+    }
+
+    .about-us{
+        padding-left: 0;
+        font-size: 12px;
+    }
+
+    .text-about-us{
+        padding: 5px;
+       
+    }
+
+    .about-us img{
+        width: 45px;
+        height: 45px;
+    }
+
+    .about-us .social-networks img{
+        width: 10px;
+        height: 10px;
+    }
+
+
+    .functions{
+       
+        width: 80%;
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .domain h2, .domain p{
+        max-width: 90%;
+        font-size: 14px;
+    }
+
+    .footer-container{
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-container .footer-info{
+        border-right: none;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 0;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #4a4a4a;
+    }
+
+    .footer-structure{
+        border-right: none;
+        margin-bottom: 0;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #4a4a4a;
+    }
+
+    footer nav{
+        max-width: 90%;
+    }
+}
+    
